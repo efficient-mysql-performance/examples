@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `elem` (
 
 INSERT INTO elem VALUES
 -- index record gap: id < 2
-,('2', 'Au', 'Be', 'Co')
+ ('2', 'Au', 'Be', 'Co')
 -- index record gap: id=3 and id=4
 ,('5', 'Ar', 'Br', 'C' )
 -- index record gap: id > 5
